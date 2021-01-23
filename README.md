@@ -36,13 +36,13 @@ Let’s say we have the following three tables and columns:
 
 I will answer Questions below:
 
-1. How many total experiments have run by month, from July 2020 to October 2020?
+### 1. How many total experiments have run by month, from July 2020 to October 2020?
 
-2. How many users received the experiment ​‘training_tab_extra_game_10_2020’​ experiment?
+### 2. How many users received the experiment ​‘training_tab_extra_game_10_2020’​ experiment?
 
-3. How many users were in more than 1 experiment between January 2020 and March 2020?
+### 3. How many users were in more than 1 experiment between January 2020 and March 2020?
 
-4. The ​‘pre_mediation_animation_06_2020’​ experiment is triggered immediately after a new user installs the app. 
+### 4. The ​‘pre_mediation_animation_06_2020’​ experiment is triggered immediately after a new user installs the app. 
 
 Let’s assume that 50% of new users got the variant and 50% of users did not get the variant. This install event is labeled ​‘app_installed’ a​ nd if the user completed a session then the​ ‘session_completed’​ event will trigger.
 
