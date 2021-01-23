@@ -6,7 +6,7 @@ Here We are constantly A/B testing various features on both of our apps and asse
 
 Let’s say we have the following three tables and columns:
 
-● experiments​ - listing of each experiment that has been performed
+#### ● experiments​ - listing of each experiment that has been performed
 
 ○ experiment_id (integer)
 
@@ -16,7 +16,7 @@ Let’s say we have the following three tables and columns:
 
 ○ experiment_end_timestamp (timestamp_tz)
 
-● user_experiments​ - users that received the experiment
+#### ● user_experiments​ - users that received the experiment
 
 ○ user_id (integer)
 
@@ -24,7 +24,7 @@ Let’s say we have the following three tables and columns:
 
 ○ entered_experiment_timestamp (timestamp_tz)
 
-● events_log​ - all users event log
+#### ● events_log​ - all users event log
 
 ○ event_id (integer)
 
@@ -36,16 +36,16 @@ Let’s say we have the following three tables and columns:
 
 I will answer Questions below:
 
-#### 1. How many total experiments have run by month, from July 2020 to October 2020?
+ 1. How many total experiments have run by month, from July 2020 to October 2020?
 
-#### 2. How many users received the experiment ​‘training_tab_extra_game_10_2020’​ experiment?
+ 2. How many users received the experiment ​‘training_tab_extra_game_10_2020’​ experiment?
 
-#### 3. How many users were in more than 1 experiment between January 2020 and March 2020?
+ 3. How many users were in more than 1 experiment between January 2020 and March 2020?
 
-#### 4. The ​‘pre_mediation_animation_06_2020’​ experiment is triggered immediately after a new user installs the app. 
+ 4. The ​‘pre_mediation_animation_06_2020’​ experiment is triggered immediately after a new user installs the app. 
 
-#### Let’s assume that 50% of new users got the variant and 50% of users did not get the variant. This install event is labeled ​‘app_installed’ a​ nd if the user completed a session then the​ ‘session_completed’​ event will trigger.
+ Let’s assume that 50% of new users got the variant and 50% of users did not get the variant. This install event is labeled ​‘app_installed’ a​ nd if the user completed a session then the​ ‘session_completed’​ event will trigger.
 
-#### How many users within the control and experiment completed the ​‘session_completed’ event within 7 days of installing the app? 
+ How many users within the control and experiment completed the ​‘session_completed’ event within 7 days of installing the app? 
 
-#### (I will provide three metrics -- one for overall users, one for the control, and one for the experiment).
+ (I will provide three metrics -- one for overall users, one for the control, and one for the experiment).
